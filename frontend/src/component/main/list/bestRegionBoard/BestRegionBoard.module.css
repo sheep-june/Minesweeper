@@ -1,0 +1,15 @@
+.listMenuContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 15px;
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.listMenuContainer > * {
+    flex: 0 0 auto;
+}

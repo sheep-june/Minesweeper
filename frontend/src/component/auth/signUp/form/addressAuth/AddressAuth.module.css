@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+}
+.addressAuthTitle {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.radioDiv {
+    display: flex;
+}
+.radioLabel {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    position: relative;
+    font-size: 24px;
+}
+.errorMessage {
+    color: red;
+    margin: 5px;
+}
+.radioInput {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.customRadio {
+    height: 22px;
+    width: 22px;
+    color: #000000;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: background-color 0.3s, border 0.3s;
+    position: relative;
+}
+.radioInput:checked + .customRadio {
+    background-color: #000000;
+}

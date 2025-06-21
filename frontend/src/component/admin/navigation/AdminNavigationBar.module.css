@@ -1,0 +1,8 @@
+.container {
+    width: 256px;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 6px 0px 18px 2px rgba(0, 0, 0, 0.06);
+    padding-left: 24px;
+}

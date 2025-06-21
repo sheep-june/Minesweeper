@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    font-family: 'Pretendard Variable', sans-serif;
+}
+.firstDiv {
+    background-color: #1C5496;
+    width: 50%;
+    height: 100vh;
+}
+.secondDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}

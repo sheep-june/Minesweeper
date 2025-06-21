@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #109CF1;
+}
+.categoryIcon {
+    width: 19px;
+}

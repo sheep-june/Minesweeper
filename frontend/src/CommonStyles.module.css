@@ -1,0 +1,12 @@
+.flex {
+    display: flex;
+}
+.alignCenter {
+    align-items: center;
+}
+.justifyCenter {
+    justify-content: center;
+}
+.justifyEnd {
+    justify-content: end;
+}

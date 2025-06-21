@@ -1,0 +1,28 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px #dddddd solid;
+    cursor: pointer;
+}
+.picture {
+    width: 85px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.picture img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.title {
+    font-size: 20px;
+    margin-left: 20px;
+}
+.registrationFont {
+    font-size: 20px;
+    color: #aaaaaa;
+}

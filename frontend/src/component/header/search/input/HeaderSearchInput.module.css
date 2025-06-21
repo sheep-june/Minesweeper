@@ -1,0 +1,12 @@
+.headerSearchInput {
+    width: 500px;
+    height: 50px;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.headerSearchInput::placeholder {
+    color: #BEBEBE;
+}

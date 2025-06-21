@@ -1,0 +1,37 @@
+.logo {
+    width: 246px;
+    margin-right: 87px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+}
+
+.headerDiv {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.loginDiv {
+    display: flex;
+    font-size: 20px;
+    margin-right: 0;
+    margin-left: auto;
+    color: #000000;
+    text-decoration: none;
+    gap: 15px;
+}
+
+.loginButton {
+    cursor: pointer;
+}
+.loginButton:hover,
+.loginButton:active,
+.loginButton:visited {
+    color: #000000;
+    text-decoration: none;
+}

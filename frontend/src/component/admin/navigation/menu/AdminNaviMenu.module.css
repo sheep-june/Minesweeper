@@ -1,0 +1,12 @@
+.container {
+    margin-top: 8px;
+    margin-left: 58px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+.menuIcon {
+    width: 8px;
+}

@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    height: 40px;
+    align-items: start;
+    border-bottom: 1px #acacac solid;
+    font-size: 24px;
+    font-weight: bold;
+}

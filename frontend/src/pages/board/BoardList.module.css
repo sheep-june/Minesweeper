@@ -1,0 +1,55 @@
+.table {
+    width: 1200px;
+    border-collapse: collapse;
+}
+.tableHeader {
+    height: 64px;
+}
+.tableBodyRow {
+    height: 60px;
+    cursor: pointer;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.pageButton {
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.activePage {
+    color: #DE0000
+}
+.boardButtonDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.boardTypeDiv {
+    display: flex;
+    gap: 5px;
+}
+.searchDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    gap: 5px;
+}
+.searchInput {
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.boardWriteButtonDiv {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

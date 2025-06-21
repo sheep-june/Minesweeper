@@ -1,0 +1,86 @@
+.pageTitle {
+    margin-top: 68px;
+    margin-left: 44px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #6B6B6B;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.table {
+    margin-top: 80px;
+    width: 90%;
+    border-collapse: collapse;
+    background-color: white;
+}
+.tableHeader {
+    height: 64px;
+}
+.tableBodyRow {
+    height: 60px;
+    cursor: pointer;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.pageButton {
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.activePage {
+    color: #DE0000
+}
+.boardButtonDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.boardTypeDiv {
+    display: flex;
+    gap: 5px;
+}
+.searchDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    gap: 5px;
+}
+.searchInput {
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.selectedModal {
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deleteButton {
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    background: #ffe1e1;
+    cursor: pointer;
+}

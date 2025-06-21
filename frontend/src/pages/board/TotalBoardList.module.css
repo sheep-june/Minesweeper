@@ -1,0 +1,18 @@
+.boardList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 8개의 동일한 열 생성 */
+    gap: 16px; /* 아이템 간의 간격 */
+    padding: 20px; /* 컨테이너 패딩 */
+}
+
+.boardList div {
+    background-color: #f5f5f5; /* 배경색 */
+    border: 1px solid #ddd; /* 테두리 */
+    padding: 10px; /* 내부 여백 */
+    text-align: center; /* 텍스트 정렬 */
+    border-radius: 4px; /* 테두리 라운드 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+.boardListItem {
+    cursor: pointer;
+}

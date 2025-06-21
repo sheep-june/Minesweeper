@@ -1,0 +1,65 @@
+
+.postContentContainer {
+    padding: 50px 40px 0 40px;
+
+    min-height: 400px;
+}
+.repliesInfoDiv {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px #000000 solid;
+}
+.totalRepliesLength {
+    padding-left: 10px;
+    font-weight: 600;
+}
+.likeIcon {
+    width: 24px;
+}
+.likeDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.repliesDiv {
+    border-bottom: 1px #adadad solid;
+    cursor: pointer;
+}
+.parentReplyDiv {
+    display: flex;
+}
+.childReplyDiv {
+    display: flex;
+    margin-left: 110px;
+    background-color: #f2f2f2;
+}
+.replyWriterId {
+    width: 110px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.replyContentDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+.replyCreatedTime {
+    margin-right: 10px;
+}
+.replyContainer {
+    margin-bottom: 30px;
+}
+.toListButtonDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}

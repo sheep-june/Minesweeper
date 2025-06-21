@@ -1,0 +1,40 @@
+.container {
+    height: 166px;
+    background-color: #f2f2f2;
+    margin: 10px 0;
+    display: flex;
+}
+.replyContent {
+    width: 990px;
+    height: 126px;
+    margin: 20px;
+    border: none;
+    box-sizing: border-box;
+    padding: 20px;
+    outline: none;
+    font-size: 16px;
+}
+.replyConfirm {
+    width: 111px;
+    height: 45px;
+    background-color: #000000;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.replyConfirmButtonDiv {
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 20px;
+}
+.error {
+    color: red;
+    margin-top: 5px;
+}
+
+.success {
+    color: green;
+    margin-top: 5px;
+}

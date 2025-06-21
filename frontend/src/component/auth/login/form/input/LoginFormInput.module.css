@@ -1,0 +1,15 @@
+.input {
+    width: 590px;
+    height: 90px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+}
+.input::placeholder {
+    color: #acacac;
+}
+.errorMessage {
+    color: red;
+    margin: 5px;
+}
