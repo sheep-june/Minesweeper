@@ -52,6 +52,7 @@ JWTベースの認証と保護されたルート設計により、ユーザー�
 
 
 ## プロジェクト構成  
+```
 project-root/
 ├── backend/
 │   ├── build.gradle
@@ -71,5 +72,5 @@ project-root/
 │       ├── store/                         # Redux storeとslice
 │       ├── App.jsx                        # ルーティング設定
 │       └── index.jsx                      # エントリーポイント
-
+```
 
